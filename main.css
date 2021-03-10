@@ -1,0 +1,319 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+li,
+a {
+  list-style: none;
+  text-decoration: none;
+}
+
+.container .nav-container {
+  position: fixed;
+  z-index: 999999999;
+  width: 100%;
+  background: #ffffff;
+}
+
+.container .nav-container .nav-wrapper {
+  height: 70px;
+  overflow-y: hidden;
+}
+
+.container .nav-container .nav-wrapper .nav {
+  width: 98%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  padding: 20px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .nav-container .nav-wrapper .nav .logo {
+  font-weight: 900;
+}
+
+.container .nav-container .nav-wrapper .nav .dot {
+  color: #20c5d3;
+}
+
+.container .landing-container {
+  background-color: #1f1f1f82;
+}
+
+.container .landing-container video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+  background-size: cover;
+  background-color: red;
+  -webkit-transition: 1s opacity;
+  transition: 1s opacity;
+}
+
+.container .landing-container .landing-wrapper {
+  min-height: 100vh;
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+}
+
+.container .landing-container .landing-wrapper h1 {
+  color: white;
+  width: 70%;
+  line-height: 5rem;
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+.container .landing-container .landing-wrapper .span-name {
+  font-weight: 900;
+  font-size: 3rem;
+  width: 50%;
+  color: white;
+}
+
+.container .landing-container .landing-wrapper p {
+  color: white;
+  margin-top: 1.5rem;
+  font-size: 18px;
+  line-height: 2rem;
+}
+
+.container .landing-container .landing-wrapper ul {
+  margin-top: 2rem;
+}
+
+.container .landing-container .landing-wrapper ul li {
+  display: inline-block;
+  margin-right: 2.5rem;
+}
+
+.container .about-container {
+  padding-top: 4rem;
+  background: #ffffff;
+}
+
+.container .about-container .about {
+  padding-bottom: 8rem;
+  width: 90%;
+  margin: auto;
+}
+
+.container .about-container .about h1 {
+  font-size: 34px;
+}
+
+.container .about-container .about .about-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .about-container .about .about-wrapper .about-info1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 3rem;
+}
+
+.container .about-container .about .about-wrapper .about-info1 div {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.282);
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 2fr;
+      grid-template-columns: 1fr 2fr;
+  padding-bottom: 0.5rem;
+  margin-top: 2rem;
+}
+
+.container .about-container .about .about-wrapper .about-info1 div h1 {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.container .about-container .about .about-wrapper .about-info2 {
+  margin-bottom: 2rem;
+}
+
+.container .about-container .about .about-wrapper .about-info2 p {
+  font-size: 14px;
+}
+
+.container .about-container .about button {
+  padding: 15px;
+  background: #1f1f1f;
+  color: #ffffff;
+  font-size: 16px;
+  outline: none;
+  border: none;
+}
+
+.container .skill-container {
+  background: #1f1f1f;
+  min-height: 100vh;
+}
+
+.container .skill-container .skill-wrapper {
+  padding-top: 8rem;
+  width: 90%;
+  margin: auto;
+}
+
+.container .skill-container .skill-wrapper h1 {
+  font-size: 34px;
+  color: #ffffff;
+}
+
+.container .skill-container .skill-wrapper .skill-bar-container {
+  padding-top: 3rem;
+}
+
+.container .skill-container .skill-wrapper .skill-bar-container .skill-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-bottom: 3rem;
+}
+
+.container .skill-container .skill-wrapper .skill-bar-container .skill-bar .skill {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 0.5rem;
+  width: 80%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .skill-container .skill-wrapper .skill-bar-container .skill-bar .skill h1 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.container .skill-container .skill-wrapper .skill-bar-container .skill-bar .progress-bar {
+  background-color: #404040;
+  width: 100%;
+}
+
+.container .skill-container .skill-wrapper .skill-bar-container .skill-bar .progress-bar .empty {
+  background-color: #20c5d3;
+  height: 3px;
+  width: 80%;
+}
+
+.container .experience-container {
+  background-color: #ffffff;
+  width: 100%;
+}
+
+.container .experience-container .experience-wrapper {
+  width: 70%;
+  margin: auto;
+  padding-top: 10rem;
+  position: relative;
+}
+
+.container .experience-container .experience-wrapper::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: -7%;
+  height: 100%;
+  width: 2px;
+  background: #60606067;
+}
+
+.container .experience-container .experience-wrapper .experience {
+  position: relative;
+}
+
+.container .experience-container .experience-wrapper .experience::before {
+  content: "";
+  position: absolute;
+  top: 2%;
+  left: -10%;
+  right: 70%;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background: #606060;
+  background: #979797fa;
+}
+
+.container .experience-container .experience-wrapper .experience .clippy {
+  background-color: #20c5d3;
+  color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  position: relative;
+  -webkit-clip-path: polygon(75% 0%, 75% 50%, 75% 100%, 0% 100%, 5% 50%, 0% 0%);
+          clip-path: polygon(75% 0%, 75% 50%, 75% 100%, 0% 100%, 5% 50%, 0% 0%);
+}
+
+.container .experience-container .experience-wrapper .experience .clippy h1 {
+  font-size: 12px;
+  margin-left: 2rem;
+  padding: 10px;
+}
+
+.container .experience-container .experience-wrapper .experience .experience-info {
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+  padding-left: 2rem;
+}
+
+.container .experience-container .experience-wrapper .experience .experience-info p {
+  font-size: 18px;
+  color: #606060;
+}
+
+.container .experience-container .experience-wrapper .experience .experience-info h3 {
+  color: #606060;
+}
+/*# sourceMappingURL=main.css.map */
