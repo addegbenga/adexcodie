@@ -4,7 +4,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
- 
 }
 li,
 a {
@@ -28,10 +27,10 @@ a {
         height: 100%;
         padding: 20px;
         justify-content: space-between;
-        .logo{
+        .logo {
           font-weight: 900;
         }
-        .dot{
+        .dot {
           color: #20c5d3;
         }
       }
@@ -49,22 +48,24 @@ a {
   //   transform: translate(-50%, -50%);
   // }
   .landing-container {
-    background-color: #1f1f1f82;
-    video {
-      position: fixed;
-      top: 50%;
-      left: 50%;
-      min-width: 100%;
-      min-height: 100%;
-      width: auto;
-      height: auto;
-      z-index: -100;
-      transform: translateX(-50%) translateY(-50%);
-      // background: url("//demosthenes.info/assets/images/polina.jpg") no-repeat;
-      background-size: cover;
-      background-color: red;
-      transition: 1s opacity;
-    }
+    // background-color: #1f1f1f82;
+    background-color: #1f1f1f;
+
+    // video {
+    //   position: fixed;
+    //   top: 50%;
+    //   left: 50%;
+    //   min-width: 100%;
+    //   min-height: 100%;
+    //   width: auto;
+    //   height: auto;
+    //   z-index: -100;
+    //   transform: translateX(-50%) translateY(-50%);
+    //   // background: url("//demosthenes.info/assets/images/polina.jpg") no-repeat;
+    //   background-size: cover;
+    //   background-color: red;
+    //   transition: 1s opacity;
+    // }
     .landing-wrapper {
       min-height: 100vh;
       width: 90%;
@@ -128,7 +129,7 @@ a {
             margin-top: 2rem;
             h1 {
               font-size: 18px;
-             
+
               font-weight: 300;
             }
           }
@@ -207,7 +208,7 @@ a {
         left: -7%;
         height: 100%;
         width: 2px;
-      background: #60606067;
+        background: #60606067;
       }
       .experience {
         position: relative;
@@ -217,14 +218,12 @@ a {
           top: 2%;
           left: -10%;
           right: 70%;
-         
           height: 20px;
           width: 20px;
           border-radius: 50%;
           background: #606060;
           background: #979797fa;
         }
-
         .clippy {
           background-color: #20c5d3;
           color: #ffffff;
@@ -232,9 +231,7 @@ a {
           width: 100%;
           // height: 40px;
           position: relative;
-
           clip-path: polygon(75% 0%, 75% 50%, 75% 100%, 0% 100%, 5% 50%, 0% 0%);
-
           h1 {
             font-size: 12px;
             margin-left: 2rem;
@@ -254,6 +251,71 @@ a {
             color: #606060;
           }
         }
+      }
+    }
+  }
+  .service-container {
+    background: #1f1f1f;
+    .service-wrapper {
+      padding-top: 8rem;
+      padding-bottom: 8rem;
+      width: 90%;
+      margin: auto;
+      h1 {
+        padding-bottom: 6rem;
+      }
+      .service-inner {
+        .service {
+          h1 {
+            font-size: 24px;
+          }
+        }
+      }
+    }
+  }
+  .contact-container {
+    .contact-wrapper {
+      width: 90%;
+      margin: auto;
+      margin-top: 6rem;
+      margin-bottom: 8rem;
+      h1 {
+        margin-bottom: 4rem;
+      }
+      .form-control {
+        margin-bottom: 2rem;
+        input {
+          width: 100%;
+         border: 2px solid rgb(211, 211, 211);
+          padding: 20px;
+        }
+        textarea {
+          width: 100%;
+          padding: 5rem;
+          border: 2px solid rgb(211, 211, 211);
+          resize: none;
+        }
+      }
+      button {
+        border: none;
+        outline: none;
+        color: white;
+        background: #20c5d3;
+        padding: 20px;
+        padding-left: 4rem;
+        padding-right: 4rem;
+      }
+    }
+  }
+  .footer-container {
+    background: #1f1f1f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 30vh;
+    ul {
+      li {
+        display: inline-block;
       }
     }
   }

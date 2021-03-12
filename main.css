@@ -50,24 +50,7 @@ a {
 }
 
 .container .landing-container {
-  background-color: #1f1f1f82;
-}
-
-.container .landing-container video {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: -100;
-  -webkit-transform: translateX(-50%) translateY(-50%);
-          transform: translateX(-50%) translateY(-50%);
-  background-size: cover;
-  background-color: red;
-  -webkit-transition: 1s opacity;
-  transition: 1s opacity;
+  background-color: #1f1f1f;
 }
 
 .container .landing-container .landing-wrapper {
@@ -315,5 +298,80 @@ a {
 
 .container .experience-container .experience-wrapper .experience .experience-info h3 {
   color: #606060;
+}
+
+.container .service-container {
+  background: #1f1f1f;
+}
+
+.container .service-container .service-wrapper {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  width: 90%;
+  margin: auto;
+}
+
+.container .service-container .service-wrapper h1 {
+  padding-bottom: 6rem;
+}
+
+.container .service-container .service-wrapper .service-inner .service h1 {
+  font-size: 24px;
+}
+
+.container .contact-container .contact-wrapper {
+  width: 90%;
+  margin: auto;
+  margin-top: 6rem;
+  margin-bottom: 8rem;
+}
+
+.container .contact-container .contact-wrapper h1 {
+  margin-bottom: 4rem;
+}
+
+.container .contact-container .contact-wrapper .form-control {
+  margin-bottom: 2rem;
+}
+
+.container .contact-container .contact-wrapper .form-control input {
+  width: 100%;
+  border: 2px solid lightgray;
+  padding: 20px;
+}
+
+.container .contact-container .contact-wrapper .form-control textarea {
+  width: 100%;
+  padding: 5rem;
+  border: 2px solid lightgray;
+  resize: none;
+}
+
+.container .contact-container .contact-wrapper button {
+  border: none;
+  outline: none;
+  color: white;
+  background: #20c5d3;
+  padding: 20px;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.container .footer-container {
+  background: #1f1f1f;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 30vh;
+}
+
+.container .footer-container ul li {
+  display: inline-block;
 }
 /*# sourceMappingURL=main.css.map */
