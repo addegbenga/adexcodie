@@ -371,7 +371,11 @@ a {
   min-height: 30vh;
 }
 
-.container .footer-container ul li {
-  display: inline-block;
+.container .footer-container ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: red;
+  width: 70%;
 }
 /*# sourceMappingURL=main.css.map */

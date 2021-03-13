@@ -285,7 +285,7 @@ a {
       .form-control {
         margin-bottom: 2rem;
         input {
-          width: 100%;
+          width: 100%;                                                  
          border: 2px solid rgb(211, 211, 211);
           padding: 20px;
         }
@@ -314,9 +314,9 @@ a {
     align-items: center;
     min-height: 30vh;
     ul {
-      li {
-        display: inline-block;
-      }
+      display: flex;
+      background-color: red;
+      width: 70%;
     }
   }
 }
