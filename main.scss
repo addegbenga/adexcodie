@@ -315,8 +315,8 @@ a {
     min-height: 30vh;
     ul {
       display: flex;
-      background-color: red;
-      width: 70%;
+      width: 90%;
+      justify-content: space-around;
     }
   }
 }
